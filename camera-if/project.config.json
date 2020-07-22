@@ -21,12 +21,19 @@
 		"enhance": false,
 		"useCompilerModule": true,
 		"userConfirmedUseCompilerModuleSwitch": false,
-		"showShadowRootInWxmlPanel": true
+		"showShadowRootInWxmlPanel": true,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.12.0",
 	"appid": "wxdd8ea8551a87e768",
-	"projectname": "camera-hide",
+	"projectname": "camera-if",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
