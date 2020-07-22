@@ -1,4 +1,4 @@
-<view class="intro">iOS下嵌套超过3层白屏，take-photo只能并列放这里了</view>
+<view class="intro">测试测试测试测试</view>
 <take-photo wx:if="{{step === 'photo'}}"  bind:finish-photo="goConfirm"></take-photo>
 <view wx:if="{{step ===  'confirm'}}" style="height: calc(50% - {{navBarTop}}px)">
     <view>确认页的内容</view>
