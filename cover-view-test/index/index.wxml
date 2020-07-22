@@ -1,0 +1,19 @@
+<view class="wrapper">
+    <camera mode="normal" device-position="back" flash="auto" frame-size="medium" bindstop="" binderror="">
+    </camera>
+    <cover-view class="frame">
+        <cover-view class="top-bar">
+            <cover-image class="bar-icon" src="/images/album.png"></cover-image>
+            <cover-image class="bar-icon" src="/images/album.png"></cover-image>
+        </cover-view>
+        <cover-view class="bottom-bar">
+            <cover-view class="switch selected switch-first">单张</cover-view>
+            <cover-view class="switch switch-last">多张</cover-view>
+        </cover-view>
+    </cover-view>
+    <cover-view class="toolbar">
+        <cover-image class='toolbar-btn' src='/images/album.png'></cover-image>
+        <cover-image class='toolbar-btn-large' src='/images/album.png'></cover-image>
+        <cover-image class='toolbar-btn' src='/images/album.png'></cover-image>
+    </cover-view>
+</view>

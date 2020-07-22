@@ -1,0 +1,10 @@
+<view class="intro">iOS嵌套超过3层相机无法显示，Android没问题</view>
+<view>
+    <view>
+        <view>
+            <view>
+                <camera style="height: 500rpx;width:100%;"></camera>
+            </view>
+        </view>
+    </view>
+</view>

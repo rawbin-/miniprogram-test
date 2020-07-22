@@ -1,0 +1,10 @@
+<view class="wrapper" style="height: calc(50% - {{navBarTop}}px)"  hidden="{{ hide }}">
+    <view>相机外层兄弟节点</view>
+    <camera style="height: 500rpx;width:100%;">
+        <cover-view>相机子节点</cover-view>
+        <cover-view>icon</cover-view>
+        <cover-view>frame</cover-view>
+        <cover-view>and so on</cover-view>
+    </camera>
+    <button bindtap="takePhoto">拍照</button>
+</view>

@@ -1,0 +1,33 @@
+<cover-view>
+    <cover-view>cover-view style test</cover-view>
+    <cover-view class="confirm-bar">
+        <cover-view class="confirm-btn btn-left" bindtap="confirmFunc">
+            <cover-view>确定</cover-view>
+        </cover-view>
+        <cover-view class="confirm-btn btn-right" bindtap="cancelFunc">
+            取消
+        </cover-view>
+    </cover-view>
+
+    <cover-view class="bottom-bar">
+        <cover-view class="switch switch-first {{photoMode === 'single'?'selected':''}}" data-mode="single" bindtap="changePhotoMode">单张</cover-view>
+        <cover-view class="switch switch-last {{photoMode === 'multiple'?'selected':''}}" data-mode="multiple" bindtap="changePhotoMode">多张</cover-view>
+    </cover-view>
+</cover-view>
+
+<view>
+    <view>view style test</view>
+    <view class="confirm-bar">
+        <view class="confirm-btn btn-left">
+            <view>确定</view>
+        </view>
+        <view class="confirm-btn btn-right">
+            取消
+        </view>
+    </view>
+
+    <view class="bottom-bar">
+        <view class="switch switch-first {{photoMode === 'single'?'selected':''}}" data-mode="single" bindtap="changePhotoMode">单张</view>
+        <view class="switch switch-last {{photoMode === 'multiple'?'selected':''}}" data-mode="multiple" bindtap="changePhotoMode">多张</view>
+    </view>
+</view>

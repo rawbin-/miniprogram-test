@@ -1,0 +1,67 @@
+view,cover-view{
+    box-sizing: border-box;
+}
+.confirm-bar{
+    border-top: 1px solid rgba(238,238,238,1);
+}
+
+.confirm-btn {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 95rpx;
+    width:50%;
+    font-size: 32rpx;
+    font-weight: 500;
+    line-height: 32rpx;
+    letter-spacing: 3rpx;
+}
+
+
+.btn-left {
+    color: rgba(153, 153, 153, 1);
+    border-right: 1px solid rgba(238,238,238,1);
+}
+
+.btn-right {
+    color: rgba(30, 184, 149, 1);
+}
+
+
+
+.bottom-bar {
+    height: 100rpx;
+    line-height: 100rpx;
+    text-align: center;
+    border-top: 1px solid rgba(238,238,238,1);
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    height: 64rpx;
+    line-height: 64rpx;
+    width: 100rpx;
+    padding: 11rpx auto 13rpx auto;
+    font-size: 28rpx;
+    color: rgba(153, 153, 153, 1);
+    text-align: center;
+    background: rgba(255, 255, 255, 1);
+    cursor: pointer;
+
+}
+
+.switch.selected {
+    color: rgba(30, 184, 149, 1);
+}
+
+.switch-first {
+    border-radius: 64rpx 0 0 64rpx;
+    border:1rpx solid rgba(51, 51, 51,0.1)
+}
+
+.switch-last {
+    border-radius: 0 64rpx 64rpx 0;
+}

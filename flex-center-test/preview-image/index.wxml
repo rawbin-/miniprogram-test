@@ -1,0 +1,13 @@
+<cover-view class="wrapper" hidden="{{ hide }}">
+    <cover-view class="toolbar">
+        <cover-image class="toolbar-icon" src="/preview-image/images/preview-close.png" bindtap="closeThis"></cover-image>
+        <cover-image class="toolbar-icon {{prevDisabled?'icon-disabled':''}}" src="/preview-image/images/preview-prev.png" bindtap="toPrev"></cover-image>
+        <cover-image class="toolbar-icon {{nextDisabled?'icon-disabled':''}}" src="/preview-image/images/preview-next.png" bindtap="toNext"></cover-image>
+        <cover-image class="toolbar-icon" src="/preview-image/images/preview-delete.png" bindtap="confirmDelete"></cover-image>
+    </cover-view>
+    <cover-view class="content">
+        <cover-view class="count-show"><cover-view class="current-count">{{currentIndex + 1}}</cover-view>/{{totalCount}}</cover-view>
+        <cover-image class="image-show" src="{{currentImagePath}}"></cover-image>
+    </cover-view>
+    <my-confirm id="preview-delete-confirm" confirm-config="{{ {content: '要删除这张照片吗?'} }}" bind:confirm="deleteImg"></my-confirm>
+</cover-view>

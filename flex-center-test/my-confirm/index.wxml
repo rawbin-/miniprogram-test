@@ -1,0 +1,9 @@
+<cover-view class="confirm-wrapper" hidden="{{ hide }}">
+    <cover-view class="confirm-container">
+        <cover-view class="confirm-content">{{content}}</cover-view>
+        <cover-view class="confirm-bar">
+            <cover-view class="confirm-btn btn-left" bindtap="confirmFunc">{{confirmText}}</cover-view>
+            <cover-view class="confirm-btn btn-right" bindtap="cancelFunc">{{cancelText}}</cover-view>
+        </cover-view>
+    </cover-view>
+</cover-view>
